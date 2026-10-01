@@ -1,1 +1,210 @@
-<title>portfolio</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anas | Athlete • Developer • Gamer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#home">ANAS<span>.DEV</span></a>
+    <button id="menuButton" class="menu-button" aria-label="Open navigation">☰</button>
+    <nav id="navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#gaming">Gaming</a>
+    </nav>
+    <button id="themeButton" class="small-button" aria-label="Change theme">☼</button>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">PLAYER ONE // DEVELOPER MODE</p>
+        <h1>ANAS<span class="green">_</span></h1>
+        <h2>ATHLETE <span>//</span> DEVELOPER <span>//</span> GAMER</h2>
+        <p class="intro">Train hard. Build smart. Play different.</p>
+        <p class="muted">A personal space for my code, calisthenics journey, projects, and gaming interests.</p>
+        <div class="button-row">
+          <a class="button primary" href="#projects">Explore projects ↗</a>
+          <a class="button" href="#about">About me</a>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-title"><span class="lights">● ● ●</span> anas@portfolio:~ <span class="online">● ONLINE</span></div>
+        <div class="terminal-content">
+          <p><span class="green">&gt;</span> whoami</p>
+          <p class="terminal-output">Name: Anas</p>
+          <p class="terminal-output">Role: Athlete | Developer | Gamer</p>
+          <p class="terminal-output">Mission: Learn something every day</p>
+          <br>
+          <p><span class="green">&gt;</span> current_focus</p>
+          <p class="terminal-output">- HTML, CSS, JavaScript</p>
+          <p class="terminal-output">- Python fundamentals</p>
+          <p class="terminal-output">- Calisthenics skills</p>
+          <p class="terminal-output">- Building useful projects</p>
+          <p class="cursor">▌</p>
+        </div>
+      </div>
+      <a class="scroll-link" href="#about">↓ SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section wrap" id="about">
+      <p class="eyebrow">01 / PROFILE</p>
+      <h2 class="section-title">ABOUT <span class="green">ME</span></h2>
+      <div class="about-grid">
+        <div>
+          <p class="big-text">I'm Anas — a curious learner who enjoys training, coding, and gaming.</p>
+          <p class="muted">This website is my progress log. I'll use it to show projects I build, skills I practise, and goals I'm working toward. The details are easy to edit in the HTML file.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>01</strong><span>Keep learning</span></div>
+          <div class="stat"><strong>3</strong><span>Main interests</span></div>
+          <div class="stat"><strong>∞</strong><span>Room to improve</span></div>
+        </div>
+      </div>
+
+      <div class="interest-grid">
+        <a class="interest-card red-card" href="#training">
+          <span class="card-number">A / 01</span><span class="card-icon">↗</span>
+          <h3>ATHLETE</h3><p>Build strength with patience.</p><span class="card-link">Training goals →</span>
+        </a>
+        <a class="interest-card green-card" href="#skills">
+          <span class="card-number">D / 02</span><span class="card-icon">&lt;/&gt;</span>
+          <h3>DEVELOPER</h3><p>Code. Build. Improve.</p><span class="card-link">My skills →</span>
+        </a>
+        <a class="interest-card blue-card" href="#gaming">
+          <span class="card-number">G / 03</span><span class="card-icon">⌘</span>
+          <h3>GAMER</h3><p>Play, learn, repeat.</p><span class="card-link">Gaming zone →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section wrap" id="skills">
+      <p class="eyebrow">02 / LOADOUT</p>
+      <h2 class="section-title">SKILLS <span class="green">&amp; TECH</span></h2>
+      <div class="skills-grid">
+        <div class="panel">
+          <h3>What I'm learning</h3>
+          <div class="skill"><div><span>HTML</span><span>Learning</span></div><div class="bar"><span style="width:75%"></span></div></div>
+          <div class="skill"><div><span>CSS</span><span>Learning</span></div><div class="bar"><span style="width:60%"></span></div></div>
+          <div class="skill"><div><span>JavaScript</span><span>Learning</span></div><div class="bar"><span style="width:35%"></span></div></div>
+          <div class="skill"><div><span>Python</span><span>Learning</span></div><div class="bar"><span style="width:40%"></span></div></div>
+          <div class="skill"><div><span>Git &amp; GitHub</span><span>Practising</span></div><div class="bar"><span style="width:45%"></span></div></div>
+          <p class="hint">These bars are examples. Change the widths in style attributes as you improve.</p>
+        </div>
+        <div class="panel code-panel">
+          <div class="tabs">
+            <button class="tab active" data-language="javascript">JavaScript</button>
+            <button class="tab" data-language="python">Python</button>
+            <button class="tab" data-language="html">HTML</button>
+          </div>
+          <pre><code id="codeExample">const dailyMission = () =&gt; {
+  learnSomething();
+  buildSomething();
+  practiseSafely();
+};</code></pre>
+          <p class="code-footer"><span class="green">●</span> SAMPLE CODE <span>UTF-8</span></p>
+        </div>
+      </div>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>GitHub</span><span>VS Code</span><span>Local Storage</span></div>
+    </section>
+
+    <section class="section wrap" id="projects">
+      <p class="eyebrow">03 / BUILD LOG</p>
+      <h2 class="section-title">FEATURED <span class="green">PROJECTS</span></h2>
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="fitness">Fitness</button>
+        <button class="filter" data-filter="learning">Learning</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card" data-category="web fitness">
+          <div class="project-art art-plan"><span>CALi//</span><small>PLAN GENERATOR</small></div>
+          <div class="project-content"><p class="project-type">FITNESS / WEB APP</p><h3>Advanced Cali Plan-Generator</h3><p>A browser-based planner concept that creates a weekly calisthenics routine based on your level, goal, and available days.</p><div class="tags small-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#training">Try the planner below ↘</a></div>
+        </article>
+        <article class="project-card" data-category="web learning">
+          <div class="project-art art-portfolio"><span>&lt;/&gt;</span><small>PERSONAL WEBSITE</small></div>
+          <div class="project-content"><p class="project-type">WEB / PORTFOLIO</p><h3>Personal Portfolio</h3><p>This website introduces my interests, shows my work, and stores simple preferences in the browser.</p><div class="tags small-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#home">You're viewing it ↗</a></div>
+        </article>
+        <article class="project-card" data-category="learning">
+          <div class="project-art art-lab"><span>Py()</span><small>LEARNING LAB</small></div>
+          <div class="project-content"><p class="project-type">PRACTICE / BEGINNER</p><h3>Mini Coding Experiments</h3><p>A collection of small experiments such as calculators, quiz games, and beginner coding challenges.</p><div class="tags small-tags"><span>Python</span><span>JavaScript</span></div><a class="project-link" href="#contact">Add your repo link later ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="training">
+      <p class="eyebrow">04 / TRAINING LAB</p>
+      <h2 class="section-title">ADVANCED CALI <span class="green">PLAN-GENERATOR</span></h2>
+      <p class="muted section-intro">Choose a level, a main goal, and how many days you can train. This creates a sample weekly plan in your browser — no account or backend needed.</p>
+      <div class="planner-grid">
+        <form id="planForm" class="panel planner-form">
+          <label for="level">Your current level</label>
+          <select id="level">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+          <label for="goal">Main goal</label>
+          <select id="goal">
+            <option value="strength">Strength basics</option>
+            <option value="handstand">Handstand</option>
+            <option value="planche">Planche progression</option>
+            <option value="frontlever">Front lever progression</option>
+            <option value="mobility">Mobility &amp; flexibility</option>
+          </select>
+          <label for="days">Training days per week</label>
+          <select id="days">
+            <option value="3">3 days</option>
+            <option value="4">4 days</option>
+            <option value="5">5 days</option>
+          </select>
+          <button class="button primary full-width" type="submit">Generate my plan ↗</button>
+          <p class="hint">Use clean technique, warm up first, and stop if something hurts. Rest days help you recover.</p>
+        </form>
+        <div class="panel plan-result" aria-live="polite">
+          <div class="result-heading"><div><p class="eyebrow">YOUR GENERATED ROUTINE</p><h3 id="planTitle">Your weekly plan will appear here</h3></div><span class="result-icon">✦</span></div>
+          <div id="planOutput" class="plan-output"><p class="muted">Choose your options and press “Generate my plan”.</p></div>
+          <button id="savePlan" class="button" type="button">Save plan in this browser</button>
+          <p id="saveMessage" class="hint" aria-live="polite">Saved data stays on this device and browser.</p>
+        </div>
+      </div>
+      <div class="panel saved-goals">
+        <div><h3>My training checklist</h3><p class="hint">Tick goals as you work on them. Checkmarks are saved locally.</p></div>
+        <div class="goal-checks">
+          <label><input type="checkbox" data-goal="handstand"> Handstand basics</label>
+          <label><input type="checkbox" data-goal="strength"> Strength fundamentals</label>
+          <label><input type="checkbox" data-goal="mobility"> Mobility routine</label>
+          <label><input type="checkbox" data-goal="consistency"> Consistency</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="gaming">
+      <div class="gaming-box">
+        <div><p class="eyebrow">05 / PLAYER PROFILE</p><h2>GAMING <span class="green">ZONE</span></h2><p class="muted">Games are a fun way to relax, explore worlds, and practise strategy. Add your favourite games and profiles here whenever you're ready.</p><div class="tags"><span>Strategy</span><span>Adventure</span><span>Competitive</span><span>Co-op</span></div></div>
+        <div class="player-card"><div class="avatar">A</div><div><p class="eyebrow">PLAYER ONE</p><h3>ANAS</h3><p class="muted">CLASS: ALL-ROUNDER</p></div><strong class="level-up">LVL<br>UP</strong><div class="xp-bar"><span></span></div><small class="muted">XP gained through practice, patience, and curiosity.</small></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">06 / NEXT QUEST</p>
+        <h2>LET'S BUILD <span class="green">SOMETHING.</span></h2>
+        <p class="muted">Add your real GitHub, YouTube, or contact link when you're ready to share your work.</p>
+        <a class="button primary" href="https://github.com/" target="_blank" rel="noreferrer">Open GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#home">ANAS<span>.DEV</span></a><p>Train hard. Build smart. Play different.</p><a href="#home">BACK TO TOP ↑</a></footer>
+</body>
+</html>
