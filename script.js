@@ -230,3 +230,4 @@ if (savedPlanText) {
     localStorage.removeItem("anasSavedPlan");
   }
 }
+document.getElementById("visitStore").addEventListener("click", function () { window.location.href = "https://future-x-load.base44.app/"; });
